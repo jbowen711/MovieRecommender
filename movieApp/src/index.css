@@ -1,0 +1,11 @@
+@import "@fontsource/manrope";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    @apply font-sans text-white bg-zinc-950 tracking-wide;
+}
