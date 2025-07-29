@@ -3,6 +3,8 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import List from './pages/List';
+import Explore from './pages/Explore';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='login' element={<Login/>}/>
+        <Route path='movieList' element={<List/>}/>
+        <Route path='explore' element={<Explore/>}/>
       </Routes>
       </main>
       <Footer/>

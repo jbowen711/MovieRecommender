@@ -31,7 +31,7 @@ const LoginForm = () => {
                 try {
                     await signInWithEmailAndPassword(auth, email, password);
                     console.log("Loggin in");
-                    navigate("/watchlist")
+                    navigate("/explore")
                 } catch (loginErr) {
                     setError("Incorrect password.");
                 }
@@ -49,7 +49,7 @@ const LoginForm = () => {
     const signInGoogle = async () => {
         try {
             await signInWithPopup(auth, googleProvider);
-            navigate("/watchlist");
+            navigate("/explore");
         } catch (err) {
             console.log(err);
         }
