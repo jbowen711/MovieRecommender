@@ -35,16 +35,7 @@ const Home = () => {
   Mauris feugiat sem a lectus sollicitudin, et faucibus odio placerat. Sed accumsan magna a 
   imperdiet porttitor. Nam nec magna velit. Vivamus vitae felis sed ex fermentum commodo. 
   Phasellus rutrum neque et risus fermentum, eget lacinia massa convallis. Nullam eget est 
-  pharetra, cursus neque at, vulputate risus. Integer iaculis felis ac finibus imperdiet. 
-  Vestibulum rutrum volutpat nulla, et blandit sem rutrum sit amet. Vestibulum ante ipsum 
-  primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam et eros nisi.
-
-  Quisque ut purus nec diam dictum faucibus. Donec sed dui augue. Nunc id dolor eget mauris 
-  volutpat vulputate. Fusce at odio sem. Aliquam erat volutpat. Nulla blandit, velit a feugiat 
-  lacinia, justo risus dapibus velit, ut bibendum nulla velit non metus. Curabitur venenatis 
-  nisi a erat fringilla, at dapibus nisi convallis. Integer fermentum, velit vel mattis dictum, 
-  lacus sapien bibendum odio, vitae ullamcorper sapien justo id sem. Sed id nisl libero. Duis 
-  vel ex sed turpis malesuada sodales.
+  pharetra, cursus neque at, vulputate risus.
 </p>
         </>
     );
